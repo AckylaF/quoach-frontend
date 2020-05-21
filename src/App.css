@@ -15,6 +15,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: -8em;
+  background-color: #bab8b6fc;
 }
 header{
   background-color: #111111;
@@ -67,4 +68,18 @@ header .container{
   font-size: 2em;
   font-weight: bold;
   letter-spacing: 1px;
+}
+
+
+@media(max-width:1024px){
+  body{
+    background-position-y: 3em;
+    background-position-x: -35em;
+  }
+  .container{
+    width: 90%;
+  }
+  .quote{
+    margin-right: 0.3em;
+  }
 }
