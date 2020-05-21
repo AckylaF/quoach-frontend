@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro:400,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.container{
+  width: 76%;
+  margin: 0 auto;
+}
+body{
+  font-family: 'Advent Pro';
+  background-image: url("https://images.unsplash.com/photo-1559311648-874c28a0b7c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=731&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -8em;
+}
+header{
+  background-color: #111111;
+  height: 3.5em;
+  width: 100%;
+}
+header .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo__title{
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1.6em;
+  text-align: center;
+}
+.logo__subtitle{
+  color: white;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 2px;
+  border-top: 1px solid white;
+  padding-top: 3px;
+}
+.button{
+  width: 10em;
+  height: 2.5em;
+  border-radius: 50px;
+  background-color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-style: italic;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.button:hover{
+  transform: translate(1px, -2px);
+
+}
+.quote{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  margin-left: 1em;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
